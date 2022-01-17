@@ -1,0 +1,43 @@
+.button-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+button{
+  color: #efefef;
+  font-size: 0.8rem;
+  border: none;
+  border-radius: 3rem;
+  margin: 0.2rem;
+  background: #0C0E1B;
+  min-width: 80px;
+  cursor: pointer;
+}
+
+.button-wrapper button.active{
+  color: #0c0e1B;
+  background-color: #C9CCEA;
+  border: 1px solid #0C0e1b;
+}
+
+.form-container{
+  text-align: center;
+}
+.input-wrapper{
+  margin: 1.5rem;
+}
+
+.input-wrapper input{
+  height: 30px;
+  width: 30px;
+  padding: 2rem;
+  background-color: #0c0e1b;
+  color: #c9ccea;
+  border: none;
+  border-radius: 50%;
+  margin-right: 0.3rem;
+  text-align: center;
+  font-size: 14pt;
+}
